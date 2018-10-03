@@ -3,10 +3,26 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace TestConverter
 {
     [TestClass]
-    public class UnitTest1
+    public class TestConverter
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestToGram1()
+        {
+            // Assert.AreEqual();
+        }
+
+        [TestMethod]
+        public void TestGram2()
+        {
+        }
+
+        [TestMethod]
+        public void TestToOunces1()
+        {
+        }
+
+        [TestMethod]
+        public void TestToOunces2()
         {
         }
     }
