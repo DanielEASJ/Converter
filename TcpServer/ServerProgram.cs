@@ -9,7 +9,7 @@ namespace TcpServer
 
         static void Main(string[] args)
         {
-            TcpServer server = new TcpServer();
+            Server server = new Server();
             server.Start();
         }
     }
