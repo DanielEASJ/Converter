@@ -10,7 +10,7 @@ namespace TcpClient
 
         static void Main(string[] args)
         {
-            Client client = new Client();
+            Client client = new Client(7);
             client.Start();
 
         }
