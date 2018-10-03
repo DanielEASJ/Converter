@@ -9,7 +9,7 @@ namespace TcpClient
 {
     class Client
     {
-        private const int _port = 80;
+        private const int _port = 7;
 
         public Client()
         {

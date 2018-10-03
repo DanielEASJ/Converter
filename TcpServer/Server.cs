@@ -8,11 +8,10 @@ using System.Threading.Tasks;
 
 namespace TcpServer
 {
-    class TcpServer
+    class Server
     {
-        // måske skal port ændres fra port 80, men det er start, da jeg
-        //formoder at eftersom vi skal snakke med azure at det blvier port 80
-        private int _port = 80;
+
+        private int _port = 7;
         private string myLine;
         private string line;
 
