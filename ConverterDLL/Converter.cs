@@ -4,14 +4,16 @@ namespace ConverterDLL
 {
     public class Converter
     {
-        public void ToGram()
+        public double PrintValue;
+
+        public void ToGram(double inputValue)
         {
-            
+            PrintValue = inputValue * 28.34952;
         }
 
-        public void ToOuznes()
+        public void ToOunces(double inputValue)
         {
-            //bekræft metode navn er stavet rigtigt
+            PrintValue = inputValue / 28.34952;
         }
     }
 }
