@@ -9,11 +9,11 @@ namespace TcpClient
 {
     class Client
     {
-        private const int _port = 7;
+        private int _port = 7;
 
-        public Client()
+        public Client(int port)
         {
-
+            this._port = port;
         }
 
         public void Start()

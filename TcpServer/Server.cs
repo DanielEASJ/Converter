@@ -11,9 +11,14 @@ namespace TcpServer
     class Server
     {
 
-        private int _port = 7;
+        private int _port;
         private string myLine;
         private string line;
+
+        public Server(int port)
+        {
+            this._port = port;
+        }
 
         public void Start()
         {
