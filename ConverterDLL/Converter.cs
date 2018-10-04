@@ -4,16 +4,21 @@ namespace ConverterDLL
 {
     public class Converter
     {
-        public double PrintValue;
+        public double printValue;
+
+        // read only reSharper propperty
+        public double PrintValue => printValue;
+
+        public const double factor = 28.34952;
 
         public void ToGram(double inputValue)
         {
-            PrintValue = inputValue * 28.34952;
+            printValue = inputValue * factor;
         }
 
         public void ToOunces(double inputValue)
         {
-            PrintValue = inputValue / 28.34952;
+            printValue = inputValue / factor;
         }
     }
 }
